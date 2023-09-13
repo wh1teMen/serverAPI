@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css" />
+</head>
+
+<body>
+    
+    <form method="GET" action="/api/v1/product">
+        <input type="text" name="title" />
+        <input type="number" name="price" />
+        <button type="submit">Список категорий товаров</button>
+
+    </form>
+    
+
+
+    <form method="GET" action="/api/v1/product/:id">
+        <button id="btnProd">Цены товаров</button>
+       
+    </form>
+    <script src="../routes/api.routes.js"></script>
+   
+</body>
+
